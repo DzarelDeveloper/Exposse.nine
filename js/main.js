@@ -298,6 +298,26 @@ xgallery_images = [
     {
       url: "images/Gallery-75.jpg",
       date: "#Smpn2Tarumajaya"
+    },
+    {
+      url: "images/Gallery-76.jpg",
+      date: "#Smpn2Tarumajaya"
+    },
+    {
+      url: "images/Gallery-77.jpg",
+      date: "#Smpn2Tarumajaya"
+    },
+    {
+      url: "images/Gallery-78.jpg",
+      date: "#Smpn2Tarumajaya"
+    },
+    {
+      url: "images/Gallery-79.jpg",
+      date: "#Smpn2Tarumajaya"
+    },
+    {
+      url: "images/Gallery-80.jpg",
+      date: "#Smpn2Tarumajaya"
     }
 ];
   
