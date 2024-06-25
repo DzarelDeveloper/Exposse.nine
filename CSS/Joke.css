@@ -1,0 +1,108 @@
+body {
+  min-height: 100vh;
+  position: relative;
+  background: Black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.post-card {
+  width: 260px;
+  background: lightgrey;
+  background-color: white;
+  border: 1px solid rgb(84 90 106);
+  border-radius: 20px;
+  color: black; /* Mengubah warna teks menjadi hitam */
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin: 10px auto; /* Menambahkan jarak antara kartu */
+}
+
+.avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white; /* Mengubah warna latar belakang menjadi abu-abu */
+  background-image: black;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+  transition: all 0.35s ease-in;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.datetime {
+  font-size: 12px;
+  color: black;
+  margin: 10px 0;
+}
+
+.tagname {
+  font-size: 15px;
+  color: gray;
+  margin: 10px 0;
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.comment-like {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.comment-like span {
+  cursor: pointer;
+  height: 40px;
+  width: 50px;
+  padding: 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all 0.15s ease;
+}
+
+.comment-like span:hover {
+  background-color: rgba(137, 43, 226, 0.096);
+}
+
+.comment-like span svg {
+  fill: black; /* Mengubah warna ikon menjadi hitam */
+  margin-right: 2px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-left: 10px; /* Atur jarak sesuai kebutuhan */
+  color: black; /* Atur warna sesuai kebutuhan */
+  /* Tambahkan gaya lain jika diperlukan */
+}
+
+.verification-icon {
+    margin-left: 3px; /* Menambahkan sedikit jarak ke kiri */
+    margin-top: 5px; /* Menambahkan sedikit jarak ke bawah */
+}

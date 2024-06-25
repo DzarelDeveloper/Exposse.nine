@@ -1,0 +1,112 @@
+body {
+  min-height: 100vh;
+  position: relative;
+  background: Black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.card {
+  width: 280px; /* Lebar kartu */
+  height: 320px; /* Tinggi kartu */
+  border-width: 1px;
+  border-color: rgba(219, 234, 254, 1);
+  border-radius: 0.5rem; /* Menghilangkan sudut melengkung */
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: rgba(96, 165, 250, 1);
+  padding: 0.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.alert {
+  font-weight: 600;
+  color: rgba(107, 114, 128, 1);
+}
+
+.message {
+  margin-top: 1rem;
+  color: rgba(107, 114, 128, 1);
+}
+
+.actions {
+  margin-top: 1.5rem;
+}
+
+.actions a {
+  text-decoration: none;
+}
+
+.mark-as-read, .read {
+  display: inline-block;
+  border-radius: 0.5rem;
+  width: 90%;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
+.read {
+  background-color: rgba(59, 130, 246, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.mark-as-read {
+  margin-top: 0.5rem;
+  background-color: rgba(200, 200, 200, 1); /* Warna latar lebih gelap */
+  color: rgba(55, 65, 81, 1); /* Warna teks lebih gelap */
+  transition: all .15s ease;
+}
+
+
+.mark-as-read:hover {
+  background-color: rgb(230, 231, 233);
+}
+
+.kata-kata {
+  display: inline-block;
+  border-radius: 0.5rem;
+  width: 90%;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  background-color: rgba(255, 193, 7, 1); /* Color for kata-kata background */
+  color: rgba(55, 65, 81, 1); /* Text color for kata-kata */
+  text-decoration: none; /* Remove underline */
+  margin: 0.5rem 0; /* Add margin top and bottom */
+}
+
+.kata-kata:hover {
+  background-color: rgba(252, 211, 77, 1); /* Background color on hover */
+}
