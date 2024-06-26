@@ -635,6 +635,18 @@ let allMusic = [
 
     src: "music-52"
 
+  },
+
+  {
+
+    name: "Baraka Allahu Lakuma",
+
+    artist: "Maher Zain",
+    
+    img: "music-53",
+
+    src: "music-53"
+
   }
   
 
