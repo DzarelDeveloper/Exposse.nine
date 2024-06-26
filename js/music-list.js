@@ -627,17 +627,6 @@ let allMusic = [
 
   {
 
-    name: "Say Yes To Heaven",
-
-    artist: "Lana Del Rey",
-    
-    img: "music-52",
-
-    src: "music-52"
-
-  },
-  {
-
     name: "Baraka Allahu Lakuma",
 
     artist: "Maher Zain",
@@ -645,6 +634,18 @@ let allMusic = [
     img: "music-53",
 
     src: "music-53"
+
+  },
+
+  {
+
+    name: "Say Yes To Heaven",
+
+    artist: "Lana Del Rey",
+    
+    img: "music-52",
+
+    src: "music-52"
 
   }
   
